@@ -1,0 +1,416 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 401011 */
+    src: url('//at.alicdn.com/t/font_401011_ls12z5kmq2gldi.eot');
+    src: url('//at.alicdn.com/t/font_401011_ls12z5kmq2gldi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_401011_ls12z5kmq2gldi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_401011_ls12z5kmq2gldi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_401011_ls12z5kmq2gldi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background: #444;
+}
+main {
+    max-width: 1024px;
+    height: 100%;
+    /*background: red;*/
+    margin: 0 auto;
+    /*text-align: right;*/
+}
+header main{
+    max-width: 1024px;
+    height: 100%;
+    /*background: red;*/
+    margin: 0 auto;
+    text-align: right;
+
+}
+.gg{
+    line-height: 40px;
+    font-size: 12px;
+    color:#a8a8aa
+}
+
+nav{
+    width: 100%;
+    height: 44px;
+    background: #000;
+}
+nav main:after{
+    display: inline-block;
+    content: "";
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+}
+nav main{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: wrap;*/
+    text-align: justify;
+}
+nav a{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 44px;
+
+}
+#banner{
+    width: 100%;
+    height: 500px;
+    background: red;
+    position: relative;
+}
+
+.bantu{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    /*background-image: url("../img/sgouji.3.jpg");*/
+    background-image: url("../img/sgouji.3.jpg");
+
+}
+.banzi{
+    position: absolute;
+    left :0;
+    top: 0;
+    width: 100%;
+    height: 217px;
+    /*background: red;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    align-content: center;
+}
+.banzi h1{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+}
+.teer{
+    text-indent:20px;
+
+}
+
+
+
+
+/*ban下？*/
+.banxia{
+    width: 100%;
+    /*height: 272px;*/
+    background: #666;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.banxia li{
+    width: 25%;
+    height: 100%;
+    /*background: red;*/
+    border-top: 2px solid #fff;
+     border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.banxia .heiii1{
+    background: url("../img/qgaaa3.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.banxia li h4{
+    width: 154px;
+    height: 25px;
+    margin:0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.banxia li p{
+    width: 154px;
+    height: 201px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.banxia .heiii2{
+    background: url("../img/pga.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.banxia .heiii3{
+    background: url("../img/xianei.3.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.banxia .heiii4{
+    background: url("../img/renshou1.png");
+    background-size: cover;
+    background-position: center center;
+}
+.tehei{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 7px;
+}
+.teha{
+    padding-top: 7px;
+
+}
+.yahuhei{
+    margin-top: 15px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #dddddd;
+}
+.xiawen{
+    max-width: 980px;
+    background: #ddd;
+    margin: 0 auto;
+    padding:0 22px;
+}
+.wenzhongwen{
+    width: 100%;
+    /*height: 71px;*/
+    padding: 17px 0 11px 0;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+.wenzhongwen div{
+    width: 100%;
+    letter-spacing: .005em;
+    font-size: 10px;
+    padding-bottom: 4px;
+}
+.tebiede{
+    float: right;
+    font-size: 0;
+}
+.wenha div img{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    display: inline-block;
+    line-height: 16px;
+    /*float: right;*/
+    /*text-align: right;*/
+}
+.zhongguo{
+    /*display: inline-block;*/
+    /*line-height: 16px;*/
+    font-size: 12px;
+    position: relative;
+    top:-3px;
+}
+.diwen{
+    width: 100%;
+    /*height: 286px;*/
+    /*background: green;*/
+    overflow: hidden;
+}
+.wenha{
+    width: 100%;
+    padding: 34px 0 21px 0;
+    font-size: 12px;
+}
+
+
+
+.diwen ul li{
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+.tou1di1{
+    font-weight: 600;
+}
+
+.hama{
+    width: 20%;
+    display: inline-block;
+    float: left;
+
+}
+
+.dadada .wahaha{
+    width: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diwena{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (min-width:1024px){*/
+    /*!*main{*!*/
+        /*!*padding:0 24px;*!*/
+    /*!*}*!*/
+    /*#banner{*/
+        /*!*height: 500px;*!*/
+    /*}*/
+    /*.bantu{*/
+        /*background-image: url("../img/sgouji.3.jpg");*/
+        /*background-size: cover;*/
+        /*background-position: center center;*/
+    /*}*/
+/*}*/
+
+
+@media screen and (max-width:1024px){
+    main{
+        padding:0 24px;
+    }
+    #banner{
+        /*height: 460px;*/
+    }
+    .bantu{
+        background: url("../img/shouji.2.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+    .banxia li{
+        width: 50%;
+    }
+    .banzi{
+        height: 211px;
+    }
+    .diwena{
+        display: none;
+    }
+    .diwen{
+        display: block;
+    }
+}
+/*屏幕大于767*/
+@media screen and (min-width:767px){
+    .dadada{
+        display: block;
+    }
+    .xiaoxiaoxiao{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:767px){
+    .dadada{
+        display: none;
+    }
+    .xiaoxiaoxiao{
+        display: block;
+    }
+    #banner{
+        /*height: 380px;*/
+    }
+    .bantu{
+        background-image: url("../img/shouji.1.jpg");
+        background-size: cover;
+        background-position: center center;
+
+    }
+    .banxia li{
+        width: 100%;
+    }
+    .banzi{
+        height: 201px;
+    }
+    .diwena{
+        display: block;
+    }
+    .diwen{
+        display: none;
+    }
+    .hamaa{
+        width: 100%;
+        height: 38px;
+        padding: 10px 0;
+        border-bottom: 1px solid #cccccc;
+
+    }
+    .hamaa span {
+        /*margin-right: 20px;*/
+        display:block;
+        float: right;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width:450px){
+
+}
